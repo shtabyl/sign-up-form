@@ -24,33 +24,35 @@
     <main>
         <p class="text_big">Please fill in this form to create an account.</p>
         <form action="#" class="form" autocomplete="off">
-            <fieldset>
-                <p class="text_big">Fill in all the fields</p>
-                <p class="form__input-box input-box">
-                    <label for="first_name" class="input-box__label">First name</label>
-                    <input type="text" id="first_name" name="first_name" required>
-                </p>
-                <p class="form__input-box input-box">
-                    <label for="last_name" class="input-box__label">Last name</label>
-                    <input type="text" id="last_name" name="last_name" required>
-                </p>
-                <p class="form__input-box input-box">
-                    <label for="email" class="input-box__label">Email</label>
-                    <input type="email" id="email" name="email" autofill="off" required>
-                </p>
-                <p class="form__input-box input-box">
-                    <label for="phone_number" class="input-box__label">Phone number</label>
-                    <input type="tel" id="phone_number" name="phone_number" pattern="" title="Please enter a valid phone number, example: +79998887766" required>
-                </p>
-                <p class="form__input-box input-box">
-                    <label for="password" class="input-box__label">Password</label>
-                    <input type="password" id="password" name="password" autocomplete="off" autofill="off" required>
-                </p>
-                <p class="form__input-box input-box">
-                    <label for="confirm_password" class="input-box__label">Confirm password</label>
-                    <input type="text" id="confirm_password" name="confirm_password" autocomplete="off" autofill="off" required>
-                </p>
-            </fieldset>
+            <div class="form__input-container">
+                <fieldset>
+                    <p class="text_big">Fill in all the fields</p>
+                    <p class="form__input-box input-box">
+                        <label for="first_name" class="input-box__label">First name</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </p>
+                    <p class="form__input-box input-box">
+                        <label for="last_name" class="input-box__label">Last name</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </p>
+                    <p class="form__input-box input-box">
+                        <label for="email" class="input-box__label">Email</label>
+                        <input type="email" id="email" name="email" autofill="off" required>
+                    </p>
+                    <p class="form__input-box input-box">
+                        <label for="phone_number" class="input-box__label">Phone number</label>
+                        <input type="tel" id="phone_number" name="phone_number" pattern="" title="Please enter a valid phone number, example: +79998887766" required>
+                    </p>
+                    <p class="form__input-box input-box">
+                        <label for="password" class="input-box__label">Password</label>
+                        <input type="password" id="password" name="password" autocomplete="off" autofill="off" required>
+                    </p>
+                    <p class="form__input-box input-box">
+                        <label for="confirm_password" class="input-box__label">Confirm password</label>
+                        <input type="text" id="confirm_password" name="confirm_password" autocomplete="off" autofill="off" required>
+                    </p>
+                </fieldset>
+            </div>
             <button type="submit" class="form__button button">Create account</button>
         </form>
         <p class="text_big">Already have an account? <a href="#">Log in</a></p>
