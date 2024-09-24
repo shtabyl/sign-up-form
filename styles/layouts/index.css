@@ -1,0 +1,51 @@
+@import url(../ui/buttons.css);
+@import url(../ui/inputs.css);
+@import url(../ui/paragraph.css);
+@import url(../ui/links.css);
+@import url(../ui/figcaption.css);
+@import url(../ui/titles.css);
+
+@import url(../components/form.css);
+
+body {
+    width: 100vw;
+    height: 100svh;
+    display: flex;
+}
+.aside {
+    position: relative;
+    width: 40vw;
+    height: 100svh;
+}
+.aside__figure {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    picture img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        display: block;
+    }
+}
+.aside__title {
+    position: absolute;
+    width: 100%;
+    top: max(15vh, 30px);
+    z-index: 1;
+}
+main {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main > *:not(.form) {
+    padding-left: clamp(1em, 3vw, 40px);
+}
+
+p,
+fieldset,
+.button {
+    margin-bottom: clamp(16px, 2.5vw, 32px);
+}

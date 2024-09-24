@@ -1,0 +1,17 @@
+figcaption a {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+figcaption a:hover {
+    color: #556c55;
+}
+figcaption {
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    left: 10%;
+    opacity: 0.8;
+    font-size: 14px;
+}
