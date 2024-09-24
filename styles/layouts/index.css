@@ -46,6 +46,6 @@ main > *:not(.form) {
 
 p,
 fieldset,
-.button {
+.form__button {
     margin-bottom: clamp(16px, 2.5vw, 32px);
 }

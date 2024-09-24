@@ -3,7 +3,8 @@
 }
 .form fieldset {
     background-color: white;
-    box-shadow: 0 0 4px 2px #e6e6e6;
+    /* box-shadow: 0 0 4px 2px #e6e6e6; */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     padding: clamp(1em, 3vw, 40px);
     border: none;
     display: flex;
